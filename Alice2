@@ -1,2 +1,4 @@
 import sreamlit as st
-st.write("Hello")
+import pandas as pd
+voc = pd.need_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTyeMe3fU1cn7KFGLFinM9Dig4MiMSEGEPYWemYv1fqGvxuZoOSDH92OTQnntcsNGccUGjUaiOhLSQW/pub?output=csv")
+st.dataframe(voc)
